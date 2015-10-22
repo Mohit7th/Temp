@@ -21,7 +21,7 @@ class AddNumOnly{
 			if(Character.isDigit(tempCh)){
 				sum = Integer.parseInt(""+tempCh);
 				if(flag){ 
-					//when last value of tempCh was a number, it means num > 9 (2 or more digit number) 
+					//when last value of tempCh was a number, it means num>9 (2 or more digit number) 
 					numArr[j-1] = numArr[j-1]*10+sum;
 				}else{
 					numArr[j++] = sum;

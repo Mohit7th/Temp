@@ -12,7 +12,7 @@ class NumEquFreq{
 		boolean flag = false; int count = 0;
 		for(int i=0; i<arr.length; i++){
 			//use of flag ensures that, two element one after another
-			//cannot be same
+			//cannot be same, no continuous repetition 
 			if(arr[i]==n){
 				count++;
 				if(flag) return false;

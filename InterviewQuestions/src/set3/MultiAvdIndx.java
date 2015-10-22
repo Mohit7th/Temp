@@ -37,7 +37,7 @@ class MultiAvdIndx{
 		MultiAvdIndx.performMul(arr1);	
 		
 		//test case 2
-		int arr2[] = {4, 2, 4, 6, 5, 1};
+		int arr2[] = {4, 2, 4, 6, 5, 3};
 		System.out.print("\nTest case 2 ");
 		MultiAvdIndx.displayVal(arr2);
 		MultiAvdIndx.performMul(arr2);

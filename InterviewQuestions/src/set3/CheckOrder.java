@@ -13,7 +13,7 @@ class CheckOrder{
 		if(num>=0){
 			//single digit number
 			if(num<=9) return true;
-			//extracting last digit from number
+			//extracting last digit from the number
 			rem = num%10; num=num/10;
 			while(num>0){
 				temp = num%10; num = num/10;
