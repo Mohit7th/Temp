@@ -67,13 +67,13 @@ class FrequencySort {
 	}
 
 	public static void main(String args[]) {
-		// use case 1
+		// test case 1
 		int arr[] = { 1, 4, 3, 2, 1 };
 		System.out.print("Input : ");
 		FrequencySort.display(arr);
 		FrequencySort.sortArr(arr);
 
-		// use case 2
+		// test case 2
 		int arr1[] = { 1, 1, 2, 7, 7, 7, 4, 3, 7, 1 };
 		System.out.print("Input : ");
 		FrequencySort.display(arr1);

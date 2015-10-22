@@ -42,7 +42,7 @@ class AlterArrEle {
 
 	public static void main(String[] args) {
 
-		// use case 1
+		// test case 1
 		int n1[] = { 5, 3, 2, 1, 7, 4, 2, 8, 9, 11, 5 };
 		System.out.print("Input : ");
 		AlterArrEle.displayArr(n1);
@@ -50,7 +50,7 @@ class AlterArrEle {
 		System.out.print("Output: ");
 		AlterArrEle.displayAlterArr(n1);
 
-		// use case 2
+		// test case 2
 		int n2[] = { 1, 6, 2, 8, 5, 9, 11, 12, 3, 0, 3 };
 		System.out.print("Input : ");
 		AlterArrEle.displayArr(n2);

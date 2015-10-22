@@ -21,12 +21,12 @@ class DeleteVow {
 	}
 
 	public static void main(String[] args) {
-		// use case 1
+		// test case 1
 		String str1 = "helloworld";
 		System.out.println("Old String : " + str1);
 		DeleteVow.deleteVowel(str1);
 
-		// use case 2
+		// test case 2
 		String str2 = "worldhello";
 		System.out.println("Old String : " + str2);
 		DeleteVow.deleteVowel(str2);

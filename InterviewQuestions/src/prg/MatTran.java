@@ -2,7 +2,7 @@
  * @author : Mohit Uniyal 
  * Problem : rotate a matrix 90 degree right and 90 degree left
  * 			 Input - 10 20    output - 30 10	
- * 					 30 40             40 20
+ * 				 30 40             40 20
  */
 package prg;
 
@@ -61,7 +61,7 @@ class MatTran {
 
 	public static void main(String[] args) {
 		int arr[][] = { { 1, 2 }, { 3, 4 } };
-		// use case 1
+		// test case 1
 		System.out.println("before conversion\n");
 		MatTran.display(arr);
 		arr = MatTran.convert(arr, 0);
@@ -70,7 +70,7 @@ class MatTran {
 		MatTran.display(arr);
 
 		int arr1[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-		// use case 2
+		// test case 2
 		System.out.println("before conversion\n");
 		MatTran.display(arr1);
 		arr1 = MatTran.convert(arr1, 1);
