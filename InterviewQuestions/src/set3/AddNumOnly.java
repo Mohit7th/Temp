@@ -7,6 +7,9 @@
  */
 package set3;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 class AddNumOnly{
 	static void add(String str){
 		int sum = 0, j=0, strLen = str.length(); 
@@ -39,17 +42,29 @@ class AddNumOnly{
 		System.out.println("sum : "+sum);
 	}
 	
+	//.......................OR...........................
+	
+	static void add(String str, int sum){
+		Pattern pat = Pattern.compile("[0-9]*[0-9]");
+		Matcher mat = pat.matcher(str);
+		
+		while(mat.find()){
+			sum += Integer.parseInt(mat.group());
+		}
+		System.out.println("sum : "+sum);
+	}
+	
 	public static void main(String []args){
 		//test case 1
 		String str1 = "there are 12 girls and 2 boys in 1 classroom";
 		System.out.println("Test case 1");
 		System.out.println("Str1 : "+str1);
-		AddNumOnly.add(str1);
+		AddNumOnly.add(str1, 0);
 		
 		//test case 2
 		String str2 = "1 muliplied by 110, equals 1000";
 		System.out.println("Test case 2");
 		System.out.println("Str2 : "+str2);
-		AddNumOnly.add(str2);
+		AddNumOnly.add(str2, 0);
 	}
 }
