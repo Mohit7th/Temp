@@ -19,7 +19,6 @@ public class NumRevRec {
 		return rev;
 	}
 	
-
 	public static void main(String[] args) {
 		//test case 1
 		System.out.println("Test case 1 : 124");
