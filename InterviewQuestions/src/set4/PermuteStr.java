@@ -1,6 +1,6 @@
 package set4;
 
-public class PermuteArr {
+public class PermuteStr {
 	private static void permute(String pref, String str){
 		int n = str.length();
 		if(n==0){
@@ -30,11 +30,11 @@ public class PermuteArr {
 	public static void main(String[] args) {
 		//test case 1
 		System.out.println("Test case 1 : abc");
-		PermuteArr.permute("","abc");
+		PermuteStr.permute("","abc");
 				
 		//test case 2
 		System.out.println("Test case 2 : mohit");
-		PermuteArr.permute("","mohit");
+		PermuteStr.permute("","mohit");
 
 	}
 
